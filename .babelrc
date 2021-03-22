@@ -1,0 +1,29 @@
+{
+  "presets": ["@babel/preset-env", "@babel/preset-react"],
+  "plugins": [
+    [
+      "object-to-json-parse",
+      {
+        "minJSONStringSize": 256
+      }
+    ],
+    ["babel-plugin-styled-components"],
+    // [
+    //   "@babel/plugin-proposal-decorators",
+    //   {
+    //     "legacy": true
+    //   }
+    // ],
+    [
+      "@babel/plugin-proposal-class-properties",
+      {
+        "loose": false
+      }
+    ]
+  ],
+  "env": {
+    "test": {
+      "plugins": ["istanbul"]
+    }
+  }
+}

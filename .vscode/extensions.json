@@ -1,0 +1,10 @@
+{
+  "recommendations": [
+    "dbaeumer.vscode-eslint",
+    "esbenp.prettier-vscode",
+    "mrmlnc.vscode-scss",
+    "dsznajder.es7-react-js-snippets",
+    "davidanson.vscode-markdownlint",
+    "shd101wyy.markdown-preview-enhanced"
+  ]
+}
